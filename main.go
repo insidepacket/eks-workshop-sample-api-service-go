@@ -35,7 +35,7 @@ func main() {
 
 		io.WriteString(w, string(out))
 
-		fmt.Println("Hello world - the log message")
+		fmt.Println("YOU ARE HACED, Please reboot your PC now!!!")
 	})
 	http.ListenAndServe(":8080", nil)
 }
