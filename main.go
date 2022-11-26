@@ -15,7 +15,7 @@ func main() {
 
 		f := fib()
 
-		res := &response{Message: "Sorry! You are hacked"}
+		res := &response{Message: "Congratulation! You are hacked"}
 
 		for _, e := range os.Environ() {
 			pair := strings.Split(e, "=")
